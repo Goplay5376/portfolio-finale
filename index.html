@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <nav>
+        <div class="fixed-menu">
+            <h1 class="logo">AH</h1>
+            <div class="nav-links">
+                <a class="nav-link main-link active" href="#main">Главная</a>
+                <a class="nav-link about-link" href="#about">Обо мне</a>
+                <a class="nav-link skills-link" href="#skills">Навыки</a>
+                <a class="nav-link works-link" href="#works">Работы</a>
+                <a class="nav-link comments-link" href="#comments">Отзывы</a>
+            </div>
+        </div>
+        <div class="mobile-button">
+            <img class="mobile-btn " src="img/Component 21.png" alt="nopr">
+            <img class="mobile-btn btn-hide" src="img/Union.png" alt="cross">
+        </div>
+        <div class="mobile-menu hide">
+            <div class="mobile-nav-links">
+                <a class="nav-link main-link active" href="#main">Главная</a>
+                <a class="nav-link about-link" href="#about">Обо мне</a>
+                <a class="nav-link skills-link" href="#skills">Навыки</a>
+                <a class="nav-link works-link" href="#works">Работы</a>
+                <a class="nav-link comments-link" href="#comments">Отзывы</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="main">
+        <div class="main-block">
+            <div class="planet"></div>
+            <div class="main-content">
+                <h1 class="main-title">АХМАД ХАНЫШЕВ</h1>
+                <p class="main-subtitle">личная страница (почти) веб  разработчика</p>
+            </div>
+            <div class="main-button">
+                <a href="#about">Подробнее</a>  
+            </div>
+        </div>
+        <div class="moving-planet"></div>
+    </section>
+
+    <section id="about">
+        <h1 class="title">ОБО МНЕ</h1>
+            <div class="about-block">
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="about-title"> Меня зовут Ахмад. 
+                            Я занимаюсь созданием протстых и современных 
+                            сайтов. <br><br>
+                            Мне нравится создавать интересные и 
+                            простые проекты.
+                        </p>
+                        <div class="about-button">
+                            <a href="#skills">Мои навыки</a>  
+                        </div>
+                    </div>
+                </div>
+                <div class="about-card">
+                    <img src="img/selfie.jpg" alt="">
+                    <p><b>Где живу:</b>Турция , Алания</p>
+                    <p><b>Возраст:</b>13</p>
+                    <p><b>Дата рождения:</b> 2011</p>
+                </div>
+            </div>
+            <div class="moving-cloud"></div>
+    </section>
+
+    <section id="skills">
+        <h1 class="title">НАВЫКИ</h1>
+        <div class="skills-block">
+            <div class="skills-card">
+                <b><p> ЭТОТ САЙТ Я СДЕЛАЛ
+                    В РАМКАХ ОБУЧЕНИЯ ШКОЛЫ
+                    ROCKET TECH SCHOOL
+                </p>
+                </b>
+                <div class="languages">
+                    <img src="img/skills-img1.png" width="70">
+                    <img src="img/skills-img2.png" width="70">
+                    <img src="img/skills-img3.png" width="70">
+                </div>
+                <div class="skills-button">
+                    <a href="#works">Смотреть работы</a>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="works">
+        <h1 class="title">РАБОТЫ</h1>
+        <div class="works-block">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="img/project1.png" alt=""></div>
+                  <div class="swiper-slide"><img src="img/project 2.png" alt=""></div>
+                  <div class="swiper-slide"><img src="img/project3.png" alt=""></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div> 
+        </div>
+    </section>
+
+    <section id="comments">
+        <h1 class="title">ОТЗЫВЫ</h1>
+        <div class="comments-block">
+            <div class="comment-card">
+                <img src="img/comment-card.img.png">
+                <h3>Владимир</h3>
+                <p>Основатель Rocket Tech School</p>
+            </div>
+            <div class="comment">
+                <p>
+                    Этот парень проходил обучение 
+                    веб разработке 4 месяца, 
+                    и уже создает полноценные сайты!
+                </p>
+            </div>
+            <div class="comment-card">
+                <img src="img/comment-card2.img.png">
+                <h3>Диана</h3>
+                <p>Product Lead Rocket Tech School</p>
+            </div>
+            <div class="comment">
+                <p>
+                    Очень хорошо пишет код. 
+                    Отличная оптимизация сайта. 
+                    Современно, стильно, молодежно!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-info">
+            <b><p>АХМАД ХАНЫШЕВ</p></b>
+            <p>Личный сайт (почти) веб разработчика</p>
+        </div>
+        <div class="footer-year">
+            <p>© 2023</p>
+        </div>
+        <div class="footer-links">
+            <a href="#"><img src="img/footer-icon1.png"></a>
+            <a href="#"><img src="img/footer-icon2.png"></a>
+            <a href="#"><img src="img/footer-icon3.png"></a>
+            <a href="#"><img src="img/footer-icon4.png"></a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          pagination: {
+            el: ".swiper-pagination",
+            type: "fraction",
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+</body>
+</html>
+
